@@ -38,7 +38,7 @@ font-size: 18px
 a
 {
     text-decoration: none;
-    color:whitesmoke;
+    color:white;
     font-size: 19px;
 }
 
@@ -72,7 +72,7 @@ header nav ul li a
 {
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: white;
    
 }
 
@@ -97,7 +97,7 @@ img{
 /*diplome*/
 #Diplome
 {
-    background-color: lightgray;
+    background-color: white;
     padding-top: 30px;
      padding-bottom: 30px;
 }
@@ -119,11 +119,11 @@ img{
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(23, 32, 42);
-    color:lightgray;
+    color:white;
 }
 .Element:nth-child(4)
 {
-    background-color: lightgray;
+    background-color: white;
 }
 #XP .element
 {
@@ -160,7 +160,7 @@ padding: 30px;
 /*Compétences*/
 #EXP
 {
-    background-color:lightgray;
+    background-color:white;
     padding: 15px;
 }
 
@@ -192,7 +192,7 @@ footer h1
 footer h2
 {
     font-size:17px;
-    color: lightgray;
+    color: white;
 }
 
 footer a
