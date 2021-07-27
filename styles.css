@@ -1,0 +1,211 @@
+/*general*/
+*
+{
+    margin:auto;
+   padding:auto;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+  
+}
+
+h1
+{
+    font-family: 'Russo One', sans-serif;
+    font-size:40px;
+    color: #445;
+}
+
+h2
+{
+    color: black;
+    font-size: 55px
+}
+
+h3
+{
+font-family: Arial,sans-serif;  
+}
+
+p
+{
+font-family: Arial,sans-serif;
+font-size: 18px
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+}
+
+/*header*/
+
+}
+
+header{
+    height:2000px;  
+}
+header nav
+{
+    background-color: rgb(23, 32, 42);
+    text-align: center;
+}
+header nav ul li
+{
+    display:inline-block;
+    margin:25px;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:25px;
+    margin-right:150px;
+}
+
+/*menu*/
+#Conteneur
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+}
+
+img{
+    max-width: 80%;
+    background-color: rgb(23, 32, 42);;
+    padding: 6px;
+}
+
+.Element
+{
+ padding: 40px;
+
+}
+
+.Element:nth-child(1) p
+{
+ font-size: 20px
+
+}
+
+/*diplome*/
+#Diplome
+{
+    background-color: white;
+    padding-top: 30px;
+     padding-bottom: 30px;
+}
+#Diplome ul
+{
+    padding: 30px;
+   
+}
+#Diplome li
+{
+    font-size:25px;
+    font-family: 'Russo One', sans-serif;
+    color:rgb(23, 32, 42);
+    margin-top: 20px
+}
+/*Exp Pro*/
+#XP
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(23, 32, 42);
+    color:white;
+}
+.Element:nth-child(4)
+{
+    background-color: white;
+}
+#XP .element
+{
+padding: 30px;
+    
+}
+#XP h3
+{
+ font-size: 35px;
+ text-decoration-line: underline;
+}
+#XP h4
+{
+ font-size: 20px;
+ text-align: center;
+ padding:3px; 
+ font-style: italic;
+}
+
+#XP ul
+{
+ font-size: 18px;
+ text-align: center;
+ padding:6px;
+}
+
+#XP p
+{
+ font-size: 22px;
+ text-align: center;
+ text-decoration-line: underline;
+}
+
+#EXP
+{
+    background-color:white;
+    padding: 15px;
+}
+
+#XP
+{
+    padding: 30px
+}
+
+ul
+{
+    font-size: 20px;
+        font-style: italic
+}
+/*compétences*/
+#competences
+{
+    background-color: white;
+}
+/*footer*/
+footer
+{
+    background-color: rgb(23, 32, 42);
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+footer h1
+{
+    color:white;
+    text-align:center;
+    text-decoration-line:underline;
+}
+
+footer h2
+{
+    font-size:17px;
+    color: white;
+}
+
+footer a
+{
+    font-size: 18px
+}
+#Contact
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px
+}
